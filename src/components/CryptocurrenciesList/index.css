@@ -1,0 +1,58 @@
+/* Write your CSS code here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  height: 90vh;
+}
+
+.heading {
+  color: #00e7ff;
+  font-size: 25px;
+  font-weight: 600;
+}
+.dash-board {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  border-radius: 15px;
+  border: 2px solid #00e7ff;
+}
+.titles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #092e33;
+  height: 10vh;
+  width: 0100%;
+}
+.coin-type {
+  color: #ffffff;
+  font-size: 20px;
+}
+.USD {
+  font-size: 20px;
+  padding-left: 10px;
+  margin-right: 10px;
+  padding-right: 20px;
+}
+.EURO {
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.va {
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+  margin-right: 20px;
+  justify-content: space-between;
+  width: 10vw;
+}
+.imagecurr {
+  width: 40vw;
+  height: 40vh;
+}
